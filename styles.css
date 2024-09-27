@@ -1,5 +1,22 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #index-title {
     color: blue;
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+    margin: 2px auto;
 }
 
 .ingredients {
@@ -12,4 +29,21 @@ h1, h2 {
 
 p, li {
     font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    margin: 20px;
+}
+
+li {
+    display: inline;
+    border: 1px solid blue;
+    padding: 8px;
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: aqua;
 }
